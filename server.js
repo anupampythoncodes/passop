@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: 'https://passop07.netlify.app/',  // Allow your frontend's URL
+  origin: 'https://passop07.netlify.app',  // Allow your frontend's URL
   credentials: true,                // If you're sending cookies or authentication headers
 }));
 
